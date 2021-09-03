@@ -4,26 +4,22 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BasicNavigation {
+public class BasicNavigation_LocalHTML_File {
+    public static void main(String[] args) throws InterruptedException {
 
-    public static void main(String[] args) {
+        //file:///C:/Users/Talant/Desktop/HTML_Class/Day2.html
 
         WebDriverManager.chromedriver().setup();
 
         WebDriver driver = new ChromeDriver();
 
-      //  driver.navigate().to("https://yahoo.com");
-        driver.get("https://amazon.com");
+        driver.get("file:///C:/Users/Talant/Desktop/HTML_Class/Day2.html");
 
-        driver.navigate().to("https://google.com");
-
-        driver.navigate().back();
-
-        driver.navigate().forward();
+        Thread.sleep(3000);
 
         driver.quit();
 
 
-    }
 
+    }
 }
