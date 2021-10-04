@@ -1,4 +1,4 @@
-package com.cybertek.tests.day10;
+package com.cybertek.tests.day10_faker_propertyFile;
 
 import com.cybertek.utility.ConfigReader;
 import com.cybertek.utility.Driver;

@@ -1,4 +1,4 @@
-package com.cybertek.tests.day10;
+package com.cybertek.tests.day10_faker_propertyFile;
 
 import org.junit.jupiter.api.Test;
 

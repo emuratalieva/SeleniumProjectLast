@@ -1,4 +1,4 @@
-package com.cybertek.tests.day10;
+package com.cybertek.tests.day10_faker_propertyFile;
 import com.cybertek.utility.BrowserUtil;
 import com.cybertek.utility.Driver;
 import com.cybertek.utility.TestBase;
@@ -6,8 +6,6 @@ import com.cybertek.utility.WebOrderUtil;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.jupiter.api.Assertions.*;
 

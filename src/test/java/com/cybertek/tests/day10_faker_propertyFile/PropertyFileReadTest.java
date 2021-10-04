@@ -1,10 +1,9 @@
-package com.cybertek.tests.day10;
+package com.cybertek.tests.day10_faker_propertyFile;
 
 import com.cybertek.utility.ConfigReader;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
